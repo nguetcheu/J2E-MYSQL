@@ -63,6 +63,7 @@ public class Noms {
         }
 
         try {
+        	// Infos sur le serveur de base de données
             connexion = DriverManager.getConnection("jdbc:mysql://localhost:3306/javaee", "root", "");
         } catch (SQLException e) {
             e.printStackTrace();
